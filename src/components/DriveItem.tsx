@@ -13,14 +13,14 @@ const DriveItem = ({
   to: string;
 }) => {
   const formatPrice = (price: number) => {
-    return price.toLocaleString('en-US', {
+    return price.toLocaleString("en-US", {
       minimumFractionDigits: 2,
-      maximumFractionDigits: 2
+      maximumFractionDigits: 2,
     });
   };
 
   return (
-    <div className="flex flex-col p-4 border-b border-gray-600">
+    <div className="flex flex-col p-4 py-3 border-b border-gray-600">
       <div className="flex flex-row justify-between">
         <span className="font-bold">{date}</span>
         <span className="font-bold">COP {formatPrice(price)}</span>

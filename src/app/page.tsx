@@ -5,7 +5,7 @@ import { mockData } from "../data/mockup";
 export default function Home() {
   return (
     <div>
-      <header className="relative sticky top-0 bg-[#202020] w-full z-20  p-3 flex items-center justify-center">
+      <header className="sticky top-0 bg-[#141414] w-full z-20  p-3 flex items-center justify-center">
         <div className="w-8 h-8 absolute top-2 left-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
