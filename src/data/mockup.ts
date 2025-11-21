@@ -70,6 +70,27 @@ export const mockData = [
     price: 10000,
   },
   {
+    id: 43,
+    from: "Hotel Stanza Sincelejo",
+    to: "Clínica Salud Social S.A.S.",
+    date: "2 de abr., 9:30 a.m.",
+    price: 10000,
+  },
+  {
+    id: 44,
+    from: "Clínica Salud Social S.A.S.",
+    to: "Clínica La Concepción",
+    date: "2 de abr., 10:40 a.m.",
+    price: 10000,
+  },
+  {
+    id: 45,
+    from: "Clínica La Concepción",
+    to: "Hotel Stanza Sincelejo",
+    date: "2 de abr., 11:20 a.m.",
+    price: 10000,
+  },
+  {
     id: 9,
     from: "Hotel Stanza Sincelejo",
     to: "Cl. 38 #26-14",
@@ -135,15 +156,22 @@ export const mockData = [
   {
     id: 18,
     from: "Clínica Central",
-    to: "Clinica IMAT Oncomedica Auna S.A.S.",
+    to: "Alamedas Centro Comercial",
     date: "3 de abr., 3:15 p.m.",
     price: 9000,
   },
   {
     id: 19,
+    from: "Alamedas Centro Comercial",
+    to: "Clinica IMAT Oncomedica Auna S.A.S.",
+    date: "3 de abr., 4:20 p.m.",
+    price: 10000,
+  },
+  {
+    id: 51,
     from: "Clinica IMAT Oncomedica Auna S.A.S.",
     to: "Clínica Central",
-    date: "3 de abr., 4:20 p.m.",
+    date: "3 de abr., 4:40 p.m.",
     price: 10000,
   },
   {
@@ -178,7 +206,7 @@ export const mockData = [
     id: 24,
     from: "Carrera 74 # 56-36",
     to: "Hotel Ribera Sinu",
-    date: "3 de abr., 9:30 p.m.",
+    date: "3 de abr., 10:30 p.m.",
     price: 11000,
   },
   {
