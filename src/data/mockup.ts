@@ -56,10 +56,24 @@ export const mockData = [
     price: 10000,
   },
   {
+    id: 41,
+    from: "Hotel Stanza Sincelejo",
+    to: "Clínica Salud Social S.A.S.",
+    date: "1 de abr., 6:00 p.m.",
+    price: 10000,
+  },
+  {
+    id: 42,
+    from: "Clínica Salud Social S.A.S.",
+    to: "Hotel Stanza Sincelejo",
+    date: "1 de abr., 8:00 p.m.",
+    price: 10000,
+  },
+  {
     id: 9,
     from: "Hotel Stanza Sincelejo",
     to: "Cl. 38 #26-14",
-    date: "1 de abr., 1:00 p.m.",
+    date: "2 de abr., 1:00 p.m.",
     price: 13000,
   },
   {
