@@ -113,7 +113,11 @@ export default async function Comidas(props: IComidasProps) {
       <div className="flex flex-row justify-between border-b border-b-[#ebedf2] py-4">
         <div className="flex gap-2">
           <Image
-            src={payment_methods[paymentMethod as keyof typeof payment_methods]}
+            src={
+              paymentMethod && paymentMethod.length > 0
+                ? payment_methods[paymentMethod as keyof typeof payment_methods]
+                : payment_methods.efectivo
+            }
             alt="Transactions"
             width={40}
             height={40}
